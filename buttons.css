@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.row-1{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    width:600px;
+    height:50px;
+}
+
+p{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.tick{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    padding: 3px;
+    
+}
+
+.x{
+    position: absolute;
+    top: 9px;
+    right: 0;
+    cursor: pointer;
+}
+
+.row-2{
+    width: 100%;
+    background-color: rgb(9, 6, 24);
+    position: relative;
+    width:600px;
+    height:50px;
+    color: white;
+}
+
+.tick2{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    padding: 3px;
+}
+
+.x2{
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.row-3{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    width:600px;
+    height:50px;
+    border-radius: 20px;
+}
+
+.row-4{
+    width: 100%;
+    background-color: rgb(9, 6, 24);
+    position: relative;
+    width:600px;
+    height:50px;
+    color: white;
+    border-radius: 20px;
+    margin-left: -50px;
+}
+
+.row-5{
+    background-color: white;
+    position: relative;
+    width:600px;
+    height:50px;
+}
+
+.row-6{
+    background-color: rgb(9, 6, 24);
+    position: relative;
+    width:600px;
+    height:50px;
+    color: white;
+}
+
+/* .text{
+    position: relative;
+} */
+
+.tick5{
+    position: absolute;
+}
+.row-5 img{
+    position: absolute;
+    left: 180px;
+}
+.row-5 p{
+    position: absolute;
+    left: 220px;
+}
+.row-6 img{
+    position: absolute;
+    left: 180px;
+}
+.row-6 p{
+    position: absolute;
+    left: 220px;
+}
+
+.x:hover{
+    background-color: rgb(238, 206, 221);
+    border-radius: 30px;
+}
+
+.x2:hover{
+    background-color: rgb(238, 206, 221);
+    border-radius: 30px;
+}
+
+.row-1:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    scale: 3s;
+}
+
+.row-2:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    scale: 3s;
+}
+.row-3:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    scale: 3s;
+}
+.row-4:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    scale: 3s;
+}
+.row-5:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    scale: 3s;
+}
+.row-6:hover {
+    box-shadow: 3px 3px 3px 3px grey;
+    scale: 3s;
+}
